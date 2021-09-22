@@ -15,7 +15,7 @@ import entities.UsedProduct;
 public class Program {
 	public static void main(String[] args) throws ParseException {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		Locale.setDefault(Locale.CANADA);
+		Locale.setDefault(Locale.US);
 		Scanner read = new Scanner(System.in);
 		List<Product> products = new ArrayList<>();
 
